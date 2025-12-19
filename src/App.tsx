@@ -21,6 +21,7 @@ import SplashScreen from "./components/SplashScreen";
 import Index from "./pages/Index";
 import About from "./pages/About";
 import Team from "./pages/Team";
+import Leadership from "./pages/Leadership";
 import Podcasts from "./pages/Podcasts";
 import PodcastDetail from "./pages/PodcastDetail";
 import Blog from "./pages/Blog";
@@ -67,6 +68,7 @@ const App = () => {
                       <Route path="/" element={<Index />} />
                       <Route path="/about" element={<About />} />
                       <Route path="/team" element={<Team />} />
+                      <Route path="/leadership" element={<Leadership />} />
                       <Route path="/podcasts" element={<Podcasts />} />
                       <Route path="/podcasts/:id" element={<PodcastDetail />} />
                       <Route path="/blog" element={<Blog />} />
